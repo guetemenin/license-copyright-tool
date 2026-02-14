@@ -1,33 +1,1448 @@
 {
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-14",
+  "totalLicenses": 31,
   "licenses": [
     {
       "id": "MIT",
       "name": "MIT License",
+      "shortName": "MIT",
       "category": "Permissive",
       "year": 1988,
       "author": "Massachusetts Institute of Technology",
       "officialUrl": "https://opensource.org/licenses/MIT",
-      "description": "Lisensi permisif yang paling sederhana dan populer",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/MIT.txt",
+      "description": "Lisensi permisif yang paling sederhana dan populer. Memungkinkan penggunaan komersial, modifikasi, distribusi, dan penggunaan pribadi.",
+      "keyFeatures": [
+        "Paling fleksibel",
+        "Tidak perlu share source code",
+        "Bisa digunakan komersial"
+      ],
       "requirements": [
-        "Retain copyright notice",
-        "Include license"
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
       ],
       "permissions": [
-        "Commercial use",
-        "Modification",
-        "Distribution",
-        "Private use"
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
       ],
       "conditions": [
         "License and copyright notice"
       ],
       "limitations": [
-        "No warranty",
-        "No liability"
+        "✗ No warranty",
+        "✗ No liability"
       ],
       "dmcaProtection": true,
-      "international": true
+      "international": true,
+      "popularityScore": 100,
+      "recommended": true,
+      "use_cases": [
+        "Open source software",
+        "Commercial projects",
+        "Libraries",
+        "Frameworks"
+      ]
     },
-    // ... lisensi lainnya
-  ]
+    {
+      "id": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "shortName": "Apache 2.0",
+      "category": "Permissive",
+      "year": 2004,
+      "author": "Apache Software Foundation",
+      "officialUrl": "https://opensource.org/licenses/Apache-2.0",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Apache%202.0.txt",
+      "description": "Lisensi permisif seperti MIT tapi dengan explicit patent grant. Cocok untuk project enterprise.",
+      "keyFeatures": [
+        "Explicit patent grant",
+        "Trademark protection",
+        "Lebih detail dari MIT"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi",
+        "State perubahan yang dilakukan"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Patent use",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice",
+        "State changes"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability",
+        "✗ Trademark use"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 85,
+      "recommended": true,
+      "use_cases": [
+        "Enterprise software",
+        "Apache projects",
+        "Enterprise tools"
+      ]
+    },
+    {
+      "id": "GPL-2.0",
+      "name": "GNU General Public License v2.0",
+      "shortName": "GPL v2",
+      "category": "Copyleft",
+      "year": 1991,
+      "author": "Free Software Foundation",
+      "officialUrl": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/GPL%202.0.txt",
+      "description": "Lisensi copyleft yang wajib share source code jika dimodifikasi. Sangat ketat terhadap kebebasan software.",
+      "keyFeatures": [
+        "Copyleft (wajib share source)",
+        "Ketat terhadap kebebasan",
+        "Tidak boleh komersial tertutup"
+      ],
+      "requirements": [
+        "Share source code",
+        "Sertakan lisensi",
+        "State perubahan",
+        "Disclose source"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "Disclose source",
+        "License and copyright notice",
+        "State changes",
+        "Same license"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 75,
+      "recommended": true,
+      "use_cases": [
+        "Linux kernel",
+        "GNU software",
+        "Open source projects"
+      ]
+    },
+    {
+      "id": "GPL-3.0",
+      "name": "GNU General Public License v3.0",
+      "shortName": "GPL v3",
+      "category": "Copyleft",
+      "year": 2007,
+      "author": "Free Software Foundation",
+      "officialUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/GPL%203.0.txt",
+      "description": "Versi terbaru dari GPL dengan perlindungan terhadap Tivoization. Lebih ketat dari v2.",
+      "keyFeatures": [
+        "Anti-Tivoization",
+        "Lebih ketat dari v2",
+        "Compatibility dengan AGPL"
+      ],
+      "requirements": [
+        "Share source code",
+        "Sertakan lisensi",
+        "State perubahan",
+        "Disclose source"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "Disclose source",
+        "License and copyright notice",
+        "State changes",
+        "Same license"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 70,
+      "recommended": true,
+      "use_cases": [
+        "Open source projects",
+        "Server software",
+        "Desktop applications"
+      ]
+    },
+    {
+      "id": "BSD-2-Clause",
+      "name": "BSD 2-Clause License",
+      "shortName": "BSD 2-Clause",
+      "category": "Permissive",
+      "year": 1998,
+      "author": "University of California, Berkeley",
+      "officialUrl": "https://opensource.org/licenses/BSD-2-Clause",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/BSD%202-Clause.txt",
+      "description": "Varian BSD yang sederhana dengan 2 klausa. Mirip dengan MIT tapi sedikit lebih ketat.",
+      "keyFeatures": [
+        "Sederhana seperti MIT",
+        "2 klausa saja",
+        "Permissive"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 60,
+      "recommended": false,
+      "use_cases": [
+        "Software projects",
+        "Academic projects"
+      ]
+    },
+    {
+      "id": "BSD-3-Clause",
+      "name": "BSD 3-Clause License",
+      "shortName": "BSD 3-Clause",
+      "category": "Permissive",
+      "year": 1998,
+      "author": "University of California, Berkeley",
+      "officialUrl": "https://opensource.org/licenses/BSD-3-Clause",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/BSD%203-Clause.txt",
+      "description": "Varian BSD dengan 3 klausa, termasuk batasan penggunaan nama.",
+      "keyFeatures": [
+        "3 klausa",
+        "Trademark protection",
+        "Permissive"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi",
+        "Jangan gunakan nama untuk endorse"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability",
+        "✗ Trademark use"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 65,
+      "recommended": false,
+      "use_cases": [
+        "Software projects",
+        "Academic projects"
+      ]
+    },
+    {
+      "id": "ISC",
+      "name": "ISC License",
+      "shortName": "ISC",
+      "category": "Permissive",
+      "year": 2004,
+      "author": "Internet Software Consortium",
+      "officialUrl": "https://opensource.org/licenses/ISC",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/ISC.txt",
+      "description": "Lisensi sangat sederhana, mirip MIT tapi dengan kalimat yang lebih ringkas.",
+      "keyFeatures": [
+        "Sangat sederhana",
+        "Mirip MIT",
+        "Ringkas"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 50,
+      "recommended": false,
+      "use_cases": [
+        "Node.js projects",
+        "npm packages"
+      ]
+    },
+    {
+      "id": "0BSD",
+      "name": "BSD Zero-Clause License",
+      "shortName": "0BSD",
+      "category": "Permissive",
+      "year": 2006,
+      "author": "Filip Voelkel",
+      "officialUrl": "https://opensource.org/licenses/0BSD",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/0BSD.txt",
+      "description": "BSD tanpa klausa - lisensi paling permisif setelah public domain.",
+      "keyFeatures": [
+        "Paling permisif",
+        "Tidak ada klausa",
+        "Seperti public domain"
+      ],
+      "requirements": [],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 30,
+      "recommended": false,
+      "use_cases": [
+        "Minimal projects",
+        "Public contributions"
+      ]
+    },
+    {
+      "id": "CC0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "shortName": "CC0",
+      "category": "Creative Commons",
+      "year": 2009,
+      "author": "Creative Commons",
+      "officialUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/CC0%201.0%20Universal.txt",
+      "description": "Melepaskan semua hak cipta ke public domain secara global.",
+      "keyFeatures": [
+        "Public domain",
+        "Global recognition",
+        "Paling permisif"
+      ],
+      "requirements": [],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": false,
+      "international": true,
+      "popularityScore": 55,
+      "recommended": false,
+      "use_cases": [
+        "Creative works",
+        "Datasets",
+        "Public domain"
+      ]
+    },
+    {
+      "id": "CC-BY-4.0",
+      "name": "Creative Commons Attribution 4.0",
+      "shortName": "CC-BY",
+      "category": "Creative Commons",
+      "year": 2013,
+      "author": "Creative Commons",
+      "officialUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/CC%20Attribution%204.0.txt",
+      "description": "Boleh digunakan dengan syarat harus memberi attribusi kepada pencipta.",
+      "keyFeatures": [
+        "Attribusi wajib",
+        "Permissive",
+        "Cocok untuk konten kreatif"
+      ],
+      "requirements": [
+        "Attribution",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "Attribution"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 70,
+      "recommended": true,
+      "use_cases": [
+        "Creative works",
+        "Photography",
+        "Articles",
+        "Music"
+      ]
+    },
+    {
+      "id": "CC-BY-SA-4.0",
+      "name": "Creative Commons Attribution-ShareAlike 4.0",
+      "shortName": "CC-BY-SA",
+      "category": "Creative Commons",
+      "year": 2013,
+      "author": "Creative Commons",
+      "officialUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/CC%20Attribution%20Share%20Alike%204.0.txt",
+      "description": "Harus attribusi dan gunakan lisensi yang sama untuk karya turunan.",
+      "keyFeatures": [
+        "Attribusi wajib",
+        "Share Alike wajib",
+        "Copyleft untuk karya kreatif"
+      ],
+      "requirements": [
+        "Attribution",
+        "Same license for derivatives",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "Attribution",
+        "Same license"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 65,
+      "recommended": true,
+      "use_cases": [
+        "Wikipedia",
+        "Creative works",
+        "Educational content"
+      ]
+    },
+    {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "shortName": "MPL 2.0",
+      "category": "Copyleft",
+      "year": 2012,
+      "author": "Mozilla",
+      "officialUrl": "https://opensource.org/licenses/MPL-2.0",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Mozilla%20Public%20License%202.0.txt",
+      "description": "Copyleft file-by-file. Lebih fleksibel dari GPL karena copyleft hanya per file.",
+      "keyFeatures": [
+        "File-by-file copyleft",
+        "Flexible",
+        "Patent grant"
+      ],
+      "requirements": [
+        "Disclose source (per file)",
+        "Sertakan lisensi",
+        "State changes"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use",
+        "✓ Patent use"
+      ],
+      "conditions": [
+        "Disclose source (file-by-file)",
+        "License and copyright notice",
+        "State changes"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability",
+        "✗ Trademark use"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 60,
+      "recommended": false,
+      "use_cases": [
+        "Firefox",
+        "Mozilla projects"
+      ]
+    },
+    {
+      "id": "EPL-2.0",
+      "name": "Eclipse Public License 2.0",
+      "shortName": "EPL 2.0",
+      "category": "Copyleft",
+      "year": 2017,
+      "author": "Eclipse Foundation",
+      "officialUrl": "https://opensource.org/licenses/EPL-2.0",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Eclipse%20Public%20License%202.0.txt",
+      "description": "Lisensi dari Eclipse Foundation. Mirip dengan MPL tapi dengan terminologi berbeda.",
+      "keyFeatures": [
+        "File-by-file copyleft",
+        "Patent grant",
+        "Eclipse projects"
+      ],
+      "requirements": [
+        "Disclose source",
+        "Sertakan lisensi",
+        "State changes"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use",
+        "✓ Patent use"
+      ],
+      "conditions": [
+        "Disclose source",
+        "License and copyright notice",
+        "State changes"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability",
+        "✗ Trademark use"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 50,
+      "recommended": false,
+      "use_cases": [
+        "Eclipse IDE",
+        "Eclipse projects"
+      ]
+    },
+    {
+      "id": "LGPL-2.1",
+      "name": "GNU LGPL v2.1",
+      "shortName": "LGPL v2.1",
+      "category": "Copyleft",
+      "year": 1999,
+      "author": "Free Software Foundation",
+      "officialUrl": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/LGPL%202.1.txt",
+      "description": "Lesser GPL - lebih fleksibel dari GPL. Cocok untuk library.",
+      "keyFeatures": [
+        "Lebih fleksibel dari GPL",
+        "Cocok untuk library",
+        "Linking exception"
+      ],
+      "requirements": [
+        "Disclose source",
+        "Sertakan lisensi",
+        "State changes"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "Disclose source",
+        "License and copyright notice",
+        "State changes",
+        "Same license for library changes"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 55,
+      "recommended": false,
+      "use_cases": [
+        "Libraries",
+        "Shared libraries"
+      ]
+    },
+    {
+      "id": "LGPL-3.0",
+      "name": "GNU LGPL v3.0",
+      "shortName": "LGPL v3.0",
+      "category": "Copyleft",
+      "year": 2007,
+      "author": "Free Software Foundation",
+      "officialUrl": "https://www.gnu.org/licenses/lgpl-3.0.html",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/LGPL%203.0.txt",
+      "description": "Versi terbaru LGPL dengan perlindungan anti-Tivoization.",
+      "keyFeatures": [
+        "Anti-Tivoization",
+        "Lebih ketat dari v2.1",
+        "Cocok untuk library"
+      ],
+      "requirements": [
+        "Disclose source",
+        "Sertakan lisensi",
+        "State changes"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "Disclose source",
+        "License and copyright notice",
+        "State changes",
+        "Same license for library changes"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 55,
+      "recommended": false,
+      "use_cases": [
+        "Libraries",
+        "Shared libraries"
+      ]
+    },
+    {
+      "id": "AGPL-3.0",
+      "name": "GNU Affero GPL v3.0",
+      "shortName": "AGPL v3.0",
+      "category": "Copyleft",
+      "year": 2007,
+      "author": "Free Software Foundation",
+      "officialUrl": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/AGPL%203.0.txt",
+      "description": "GPL yang mencakup layanan network. Wajib share source jika digunakan sebagai layanan online.",
+      "keyFeatures": [
+        "Network copyleft",
+        "Wajib share source untuk SaaS",
+        "Paling ketat"
+      ],
+      "requirements": [
+        "Disclose source",
+        "Sertakan lisensi",
+        "State changes",
+        "Network users rights"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "Disclose source",
+        "License and copyright notice",
+        "State changes",
+        "Same license",
+        "Network users have access to source"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 50,
+      "recommended": false,
+      "use_cases": [
+        "SaaS applications",
+        "Web applications",
+        "Server software"
+      ]
+    },
+    {
+      "id": "Unlicense",
+      "name": "Unlicense",
+      "shortName": "Unlicense",
+      "category": "Permissive",
+      "year": 2010,
+      "author": "Unlicense contributors",
+      "officialUrl": "http://unlicense.org/",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Unlicense.txt",
+      "description": "Tidak ada lisensi - melepaskan ke public domain tanpa syarat apapun.",
+      "keyFeatures": [
+        "Paling permisif",
+        "Public domain",
+        "Tidak ada syarat"
+      ],
+      "requirements": [],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": false,
+      "international": false,
+      "popularityScore": 40,
+      "recommended": false,
+      "use_cases": [
+        "Public domain works"
+      ]
+    },
+    {
+      "id": "WTFPL",
+      "name": "WTFPL License",
+      "shortName": "WTFPL",
+      "category": "Permissive",
+      "year": 2004,
+      "author": "Sam Hocevar",
+      "officialUrl": "http://www.wtfpl.net/",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/WTFPL.txt",
+      "description": "Lakukan apa yang ingin kamu lakukan - lisensi paling santai dan humor.",
+      "keyFeatures": [
+        "Paling santai",
+        "Humor",
+        "Paling permisif"
+      ],
+      "requirements": [],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": false,
+      "international": false,
+      "popularityScore": 35,
+      "recommended": false,
+      "use_cases": [
+        "Fun projects",
+        "Personal projects"
+      ]
+    },
+    {
+      "id": "Zlib",
+      "name": "Zlib License",
+      "shortName": "Zlib",
+      "category": "Permissive",
+      "year": 2000,
+      "author": "Jean-loup Gailly",
+      "officialUrl": "https://opensource.org/licenses/Zlib",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Zlib.txt",
+      "description": "Lisensi sederhana untuk library kompresi. Mirip dengan BSD tapi lebih sederhana.",
+      "keyFeatures": [
+        "Sederhana",
+        "Untuk library",
+        "Permissive"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability",
+        "✗ No false claims"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 50,
+      "recommended": false,
+      "use_cases": [
+        "Compression libraries",
+        "Zlib projects"
+      ]
+    },
+    {
+      "id": "OSL-3.0",
+      "name": "Open Software License 3.0",
+      "shortName": "OSL 3.0",
+      "category": "Copyleft",
+      "year": 2005,
+      "author": "Lawrence Rosen",
+      "officialUrl": "https://opensource.org/licenses/OSL-3.0",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Open%20Software%20License%203.0.txt",
+      "description": "Lisensi open source dengan copyleft dan patent grant yang eksplisit.",
+      "keyFeatures": [
+        "Copyleft",
+        "Patent grant",
+        "Legal rigor"
+      ],
+      "requirements": [
+        "Disclose source",
+        "Sertakan lisensi",
+        "State changes"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use",
+        "✓ Patent use"
+      ],
+      "conditions": [
+        "Disclose source",
+        "License and copyright notice",
+        "State changes",
+        "Same license"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 45,
+      "recommended": false,
+      "use_cases": [
+        "Open source projects",
+        "Educational projects"
+      ]
+    },
+    {
+      "id": "PostgreSQL",
+      "name": "PostgreSQL License",
+      "shortName": "PostgreSQL",
+      "category": "Permissive",
+      "year": 1996,
+      "author": "PostgreSQL Global Development Group",
+      "officialUrl": "https://opensource.org/licenses/PostgreSQL",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/PostgreSQL.txt",
+      "description": "Lisensi untuk PostgreSQL database. Mirip dengan BSD tapi dengan terminologi database.",
+      "keyFeatures": [
+        "Untuk database",
+        "Permissive",
+        "Proven"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 55,
+      "recommended": false,
+      "use_cases": [
+        "Databases",
+        "PostgreSQL projects"
+      ]
+    },
+    {
+      "id": "OFL-1.1",
+      "name": "SIL Open Font License 1.1",
+      "shortName": "OFL 1.1",
+      "category": "Permissive",
+      "year": 2005,
+      "author": "SIL International",
+      "officialUrl": "https://opensource.org/licenses/OFL-1.1",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/SIL%20Open%20Font%20License%201.1.txt",
+      "description": "Lisensi khusus untuk font open source. Memungkinkan modifikasi dengan syarat tertentu.",
+      "keyFeatures": [
+        "Untuk font",
+        "Modification allowed",
+        "Global recognition"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi",
+        "Perubahan nama untuk derivative"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice",
+        "Rename fonts for derivatives"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 60,
+      "recommended": true,
+      "use_cases": [
+        "Fonts",
+        "Typefaces",
+        "Font collections"
+      ]
+    },
+    {
+      "id": "NCSA",
+      "name": "NCSA/University of Illinois License",
+      "shortName": "NCSA",
+      "category": "Permissive",
+      "year": 2000,
+      "author": "University of Illinois",
+      "officialUrl": "https://opensource.org/licenses/NCSA",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/University%20of%20Illinois%20NCSA%20Open%20Source%20License.txt",
+      "description": "Lisensi dari University of Illinois. Mirip BSD tapi dengan format berbeda.",
+      "keyFeatures": [
+        "Dari universitas",
+        "Permissive",
+        "Academic"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 50,
+      "recommended": false,
+      "use_cases": [
+        "University projects",
+        "Academic software"
+      ]
+    },
+    {
+      "id": "EUPL-1.1",
+      "name": "European Union Public License 1.1",
+      "shortName": "EUPL 1.1",
+      "category": "Copyleft",
+      "year": 2006,
+      "author": "European Commission",
+      "officialUrl": "https://opensource.org/licenses/EUPL-1.1",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/European%20Union%20Public%20License%201.1.txt",
+      "description": "Lisensi dari Uni Eropa. Copyleft yang diakui secara internasional.",
+      "keyFeatures": [
+        "Dari EU",
+        "Copyleft",
+        "International"
+      ],
+      "requirements": [
+        "Disclose source",
+        "Sertakan lisensi",
+        "State changes"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "Disclose source",
+        "License and copyright notice",
+        "State changes",
+        "Same license"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 45,
+      "recommended": false,
+      "use_cases": [
+        "EU projects",
+        "European software"
+      ]
+    },
+    {
+      "id": "MS-PL",
+      "name": "Microsoft Public License",
+      "shortName": "MS-PL",
+      "category": "Permissive",
+      "year": 2007,
+      "author": "Microsoft",
+      "officialUrl": "https://opensource.org/licenses/MS-PL",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Microsoft%20Public%20License.txt",
+      "description": "Lisensi dari Microsoft. Permissive dengan patent grant yang jelas.",
+      "keyFeatures": [
+        "Dari Microsoft",
+        "Permissive",
+        "Patent grant"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use",
+        "✓ Patent use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability",
+        "✗ Trademark use"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 55,
+      "recommended": false,
+      "use_cases": [
+        ".NET projects",
+        "Microsoft-related projects"
+      ]
+    },
+    {
+      "id": "AFL-3.0",
+      "name": "Academic Free License 3.0",
+      "shortName": "AFL 3.0",
+      "category": "Permissive",
+      "year": 2002,
+      "author": "Lawrence Rosen",
+      "officialUrl": "https://opensource.org/licenses/AFL-3.0",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Academic%20Free%20License%203.0.txt",
+      "description": "Lisensi akademik yang permissive dengan patent grant.",
+      "keyFeatures": [
+        "Akademik",
+        "Permissive",
+        "Patent grant"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use",
+        "✓ Patent use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability",
+        "✗ Trademark use"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 45,
+      "recommended": false,
+      "use_cases": [
+        "Academic projects",
+        "Educational software"
+      ]
+    },
+    {
+      "id": "Artistic-2.0",
+      "name": "Artistic License 2.0",
+      "shortName": "Artistic 2.0",
+      "category": "Permissive",
+      "year": 2000,
+      "author": "Larry Wall",
+      "officialUrl": "https://opensource.org/licenses/Artistic-2.0",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Artistic%20License%202.0.txt",
+      "description": "Lisensi yang dirancang untuk Perl. Permissive dengan beberapa kondisi.",
+      "keyFeatures": [
+        "Untuk Perl",
+        "Permissive",
+        "Kreatif"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use",
+        "✓ Patent use"
+      ],
+      "conditions": [
+        "License and copyright notice",
+        "State changes"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 40,
+      "recommended": false,
+      "use_cases": [
+        "Perl projects",
+        "Creative projects"
+      ]
+    },
+    {
+      "id": "BSL-1.0",
+      "name": "Boost Software License 1.0",
+      "shortName": "BSL 1.0",
+      "category": "Permissive",
+      "year": 2003,
+      "author": "Boost C++ Libraries",
+      "officialUrl": "https://opensource.org/licenses/BSL-1.0",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Boost%20Software%20License%201.0.txt",
+      "description": "Lisensi untuk Boost C++ Libraries. Sangat permissive dan sederhana.",
+      "keyFeatures": [
+        "Untuk C++",
+        "Sangat permissive",
+        "Sederhana"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 50,
+      "recommended": false,
+      "use_cases": [
+        "C++ libraries",
+        "Boost projects"
+      ]
+    },
+    {
+      "id": "ECL-2.0",
+      "name": "Educational Community License v2.0",
+      "shortName": "ECL 2.0",
+      "category": "Permissive",
+      "year": 2007,
+      "author": "Educause",
+      "officialUrl": "https://opensource.org/licenses/ECL-2.0",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Educational%20Community%20License%20v2.0.txt",
+      "description": "Lisensi untuk proyek komunitas pendidikan. Permissive dengan fokus pada pendidikan.",
+      "keyFeatures": [
+        "Pendidikan",
+        "Permissive",
+        "Community"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use",
+        "✓ Patent use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability",
+        "✗ Trademark use"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 40,
+      "recommended": false,
+      "use_cases": [
+        "Educational projects",
+        "Community projects"
+      ]
+    },
+    {
+      "id": "EPL-1.0",
+      "name": "Eclipse Public License 1.0",
+      "shortName": "EPL 1.0",
+      "category": "Copyleft",
+      "year": 2004,
+      "author": "Eclipse Foundation",
+      "officialUrl": "https://opensource.org/licenses/EPL-1.0",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Eclipse%20Public%20License%201.0.txt",
+      "description": "Versi lama dari Eclipse Public License. Lebih ketat dari v2.0.",
+      "keyFeatures": [
+        "Copyleft",
+        "Eclipse",
+        "Older version"
+      ],
+      "requirements": [
+        "Disclose source",
+        "Sertakan lisensi",
+        "State changes"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use",
+        "✓ Patent use"
+      ],
+      "conditions": [
+        "Disclose source",
+        "License and copyright notice",
+        "State changes"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability",
+        "✗ Trademark use"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 45,
+      "recommended": false,
+      "use_cases": [
+        "Eclipse projects",
+        "Legacy projects"
+      ]
+    },
+    {
+      "id": "LPPL-1.3c",
+      "name": "LaTeX Project Public License v1.3c",
+      "shortName": "LPPL 1.3c",
+      "category": "Permissive",
+      "year": 1999,
+      "author": "LaTeX Project",
+      "officialUrl": "https://opensource.org/licenses/LPPL-1.3c",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/LaTeX%20Project%20Public%20License%20v1.3c.txt",
+      "description": "Lisensi untuk LaTeX Project. Permissive dengan kondisi untuk modifikasi.",
+      "keyFeatures": [
+        "Untuk LaTeX",
+        "Permissive",
+        "Modification condition"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi",
+        "Rename untuk derivative"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice",
+        "Rename for derivatives"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 40,
+      "recommended": false,
+      "use_cases": [
+        "LaTeX packages",
+        "LaTeX projects"
+      ]
+    },
+    {
+      "id": "BSD-3-Clause-Clear",
+      "name": "Clear BSD 3-Clause License",
+      "shortName": "BSD 3-Clause Clear",
+      "category": "Permissive",
+      "year": 2015,
+      "author": "Facebook",
+      "officialUrl": "https://spdx.org/licenses/BSD-3-Clause-Clear.html",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/Clear%20BSD.txt",
+      "description": "Varian BSD 3-Clause yang lebih jelas tanpa ambiguitas.",
+      "keyFeatures": [
+        "BSD 3-Clause",
+        "Lebih jelas",
+        "Permissive"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 50,
+      "recommended": false,
+      "use_cases": [
+        "Facebook projects",
+        "Clear license projects"
+      ]
+    },
+    {
+      "id": "BSD-4-Clause",
+      "name": "BSD 4-Clause License",
+      "shortName": "BSD 4-Clause",
+      "category": "Permissive",
+      "year": 1998,
+      "author": "University of California, Berkeley",
+      "officialUrl": "https://spdx.org/licenses/BSD-4-Clause.html",
+      "githubUrl": "https://github.com/licensee/licensee/blob/master/lib/licensee/licenses/BSD%204-Clause.txt",
+      "description": "Varian BSD asli dengan 4 klausa termasuk iklan klausa. Sudah deprecated.",
+      "keyFeatures": [
+        "Asli BSD",
+        "4 klausa",
+        "Deprecated"
+      ],
+      "requirements": [
+        "Sertakan copyright notice",
+        "Sertakan lisensi",
+        "Advertising clause"
+      ],
+      "permissions": [
+        "✓ Commercial use",
+        "✓ Modification",
+        "✓ Distribution",
+        "✓ Private use"
+      ],
+      "conditions": [
+        "License and copyright notice",
+        "Advertising clause"
+      ],
+      "limitations": [
+        "✗ No warranty",
+        "✗ No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true,
+      "popularityScore": 30,
+      "recommended": false,
+      "use_cases": [
+        "Legacy projects",
+        "Historical projects"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Permissive",
+      "description": "Lisensi yang paling fleksibel, mengizinkan penggunaan komersial dan modifikasi bebas",
+      "count": 16
+    },
+    {
+      "name": "Copyleft",
+      "description": "Lisensi yang wajib share source code jika dimodifikasi",
+      "count": 10
+    },
+    {
+      "name": "Creative Commons",
+      "description": "Lisensi untuk karya kreatif seperti musik, foto, artikel, dll",
+      "count": 3
+    }
+  ],
+  "internationalProtection": {
+    "dmcaSupported": true,
+    "coverage": "Global",
+    "enforceability": [
+      "United States (DMCA)",
+      "European Union (Copyright Directive)",
+      "International (Berne Convention)"
+    ]
+  },
+  "disclaimer": "Database ini untuk tujuan informasi saja. Konsultasikan dengan lawyer untuk keputusan hukum yang tepat."
 }
