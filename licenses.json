@@ -1,1 +1,33 @@
-
+{
+  "licenses": [
+    {
+      "id": "MIT",
+      "name": "MIT License",
+      "category": "Permissive",
+      "year": 1988,
+      "author": "Massachusetts Institute of Technology",
+      "officialUrl": "https://opensource.org/licenses/MIT",
+      "description": "Lisensi permisif yang paling sederhana dan populer",
+      "requirements": [
+        "Retain copyright notice",
+        "Include license"
+      ],
+      "permissions": [
+        "Commercial use",
+        "Modification",
+        "Distribution",
+        "Private use"
+      ],
+      "conditions": [
+        "License and copyright notice"
+      ],
+      "limitations": [
+        "No warranty",
+        "No liability"
+      ],
+      "dmcaProtection": true,
+      "international": true
+    },
+    // ... lisensi lainnya
+  ]
+}
